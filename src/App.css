@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.section{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 70%;
+    margin: 20px 50px;
+    padding: 40px;
+    background-color:rgba(245, 245, 220,.5);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+}
+
+.content span{
+    color: black;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 1.4rem;
+    word-wrap: break-word;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.control .input{
+    width: 73%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.btn{
+    width: 70%;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(22, 118, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1px solid black;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+}
+
+.counter label{
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.counter h2{
+    color: rgb(9, 235, 159);
+    font-size: 70px;
+}
+
+.res-section{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, .5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(252, 252, 234);
+}
+
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.column{
+    display:block;
+    justify-content: space-between;
+}
+
+.column p{
+    font-size: 25px;
+}
+
+.column .result{
+    color: rgb(22, 118, 245);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.has-green-bg{
+    background-color: rgb(84, 236, 84);
+}
+
+.has-red-bg{
+    background-color: rgb(248, 59, 59);
+}
