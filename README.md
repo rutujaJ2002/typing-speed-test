@@ -1,6 +1,8 @@
 # typing-speed-test
 website to test your typing speed.
 
+https://ephemeral-concha-5a12cf.netlify.app/
+
 1. Built using React js
 2. Timer countdown of 60 seconds
 3. Input disabled unitl start button hits
